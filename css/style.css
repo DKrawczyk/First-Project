@@ -51,14 +51,24 @@ h4 {
 .slider {
   display: flex;
   align-items: center;
-  height: 50%;
+  justify-content: space-between;
+  height: 75%;
   border: 1px solid black;
+  width: 100%;
   margin: 0 auto;
+  background:linear-gradient(white, lightgrey);
 }
 
-.slider > div {
-  width: 100%;
-  border: 1px solid black;
-  align-items: space-between;
-  display: flex;
+.slider p {
+  width: 10%;
+  color: #24ba9f;
+  font-size: 7em;
+}
+
+.blackChair {
+  background-image: url('../images/black_chair.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+  width:60%;
 }
