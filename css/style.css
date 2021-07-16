@@ -59,16 +59,29 @@ h4 {
   background:linear-gradient(white, lightgrey);
 }
 
-.slider p {
+.slider > ul {
+  list-style-type: none;
+}
+
+.sliderArrow p {
   width: 10%;
   color: #24ba9f;
   font-size: 7em;
 }
 
 .blackChair {
-  background-image: url('../images/black_chair.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80%;
-  width:60%;
+  height: 90%;
+  width:90%;
+}
+
+.contentCenter {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.contentCenter > h1 {
+  font-size: 3em;
+  font-weight: 500;
 }
