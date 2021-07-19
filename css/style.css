@@ -7,7 +7,7 @@
   font-family: 'Raleway', 'Arial', sans-serif;
 }
 
-div {
+ sdiv {
   border: 1px solid white;
 }
 
@@ -52,7 +52,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 75%;
+  height: 82%;
   border: 1px solid black;
   width: 100%;
   margin: 0 auto;
@@ -63,25 +63,53 @@ h4 {
   list-style-type: none;
 }
 
+.slider ul li {
+  display: flex;
+  align-items: center;
+}
+
 .sliderArrow p {
   width: 10%;
   color: #24ba9f;
   font-size: 7em;
-}
-
-.blackChair {
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 90%;
-  width:90%;
+  padding: 0 1.3em;
+  font-weight: 200;
+  margin-left: -50px;
+  margin-right: -50px;
 }
 
 .contentCenter {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
   }
 
 .contentCenter > h1 {
   font-size: 3em;
   font-weight: 500;
+  text-align: center;
+}
+
+.lorem {
+  font-size: 0.4em;
+  line-height: 1.5em;
+  padding: 2em 0;
+}
+
+.button {
+  border-radius: 10px;
+  padding: 0.6em 1.8em;
+  font-size: 0.6em;
+  color: white;
+  background-color: #24ba9f;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.blackChair {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33em;
+  margin-left: -7em;
 }
