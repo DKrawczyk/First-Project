@@ -134,7 +134,9 @@ h4 {
 .inputs {
   width:30%;
   height: 110%;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, .2);
+  padding: 2em 1.2em;
+  letter-spacing: 1px;
 }
 
 .opacity {
@@ -142,14 +144,42 @@ h4 {
   width: 100%;
   height: 4em;
   background-color: rgba(255, 255, 255, .4);
+  position: relative;
+
 }
 
 .opacity:after {
-  content: 'Koniec listy!';
-  color: red;
-  font-weight: bold;
+  content: ' ';
+  background-color: #24ba9f;
+  position: absolute;
+  width: 27%;
+  height: 13%;
+  margin-left: 0.8em;
 }
 
 .opacity > h4 {
-  text-align: center;
+  text-align: left;
+  padding-top: 0.8em;
+  font-weight: 700;
+  padding-left: 0.8em;
+}
+
+#space {
+    margin-top: 2em;
+}
+
+.inputs > h4 {
+  font-weight: bold;
+  position: relative;
+}
+
+.inputs h4:after {
+  content: ' ';
+  background-color: #24ba9f;
+  position: absolute;
+  width: 32%;
+  height: 40%;
+  display: block;
+  float: left;
+  margin-top: 0.2em
 }
