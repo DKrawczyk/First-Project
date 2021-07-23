@@ -185,7 +185,7 @@ h4 {
 }
 
 .backgroundColor {
-  background-color: lightgrey;
+  background-color: rgba(211, 211, 211, .4);
   height:90%;
   width:100%;
 }
@@ -228,38 +228,142 @@ h4 {
 }
 
 .mainSpace {
-  border: 1px solid;
   width:auto;
   height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  justify-content: space-around;
+}
+
+.mainSpace>p {
+  color: #24ba9f;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.middleColor {
+  background-color: #24ba9f;
+}
+
+.middleColor > p {
+  color:white;
+}
+
+.circle {
+  border: 1px solid;
+  width: 9em;
+  height: 9em;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.offersContainer .circle .prize {
+  font-weight: 600;
+  text-align: center;
+  color: gray;
+}
+
+.prize > sup {
+  font-size: 0.3em;
 }
 
 .subSpace {
   width: auto;
   height:20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paragraphStyle {
+  width: 100%;
+  padding: 0.750em;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.subSpace > .paragraphStyle {
+  height: 50%;
+}
+
+.darkColor {
+  background-color: darkgray;
+}
+
+.lightColor {
+  background-color: lightgrey;
 }
 
 .secondSpace {
-  border: 1px solid;
   width:auto;
   height: 30%;
+  border: 2px solid #24ba9f;
 }
 
-.thirdSpace {
-  border: 1px solid;
-  width:auto;
-  height: 30%;
+.bottomSpace {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1em;
+  justify-content: flex-end;
+}
+
+.firstHeight {
+  height: 40%;
+}
+
+.secondHeight {
+  height:30%;
+  background-color: #24ba9f;
+}
+
+.thirdHeight {
+  height:20%;
 }
 
 .fourthSpace {
-  border: 1px solid;
+
   width:auto;
   height: 40%;
 }
 
-.fifthSpace {
-  border: 1px solid;
-  width:auto;
-  height: 20%;
+.secondSpace > .paragraphStyle {
+  height:33.3%
+}
+
+.noColor {
+  background-color: white;
+}
+
+.fourthSpace > p {
+  height:25%;
+}
+
+.offerButton {
+  border: 1px solid #24ba9f;
+  width: 35%;
+  height: 2em;
+  background-color: #24ba9f;
+  border-radius: 0.4em;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding-top:0.35em;
+  font-weight: 600;
+}
+
+.otherButton {
+  background-color: white;
+  color: #24ba9f;
+  font-weight: 600;
 }
 
 .price {
