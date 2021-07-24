@@ -220,11 +220,15 @@ h4 {
 }
 
 .offers {
-  border: 1px solid;
+  border: 2px solid gray;
   width: 28%;
   height: 109%;
   display: flex;
   flex-direction: column;
+}
+
+.middleOffer {
+  border: 1px solid #24ba9f;
 }
 
 .mainSpace {
@@ -241,11 +245,15 @@ h4 {
 .mainSpace>p {
   color: #24ba9f;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .middleColor {
   background-color: #24ba9f;
+}
+
+.circle .green {
+  color: #24ba9f;
 }
 
 .middleColor > p {
@@ -263,14 +271,25 @@ h4 {
   justify-content: center;
 }
 
-.offersContainer .circle .prize {
+.textPrice {
+  font-size: 1.3em;
   font-weight: 600;
-  text-align: center;
   color: gray;
+  opacity: .6;
 }
 
-.prize > sup {
-  font-size: 0.3em;
+.price {
+  font-weight: 600;
+  color: gray;
+  opacity: .6;
+  height: 30%;
+  font-size: 3em;
+}
+
+.price > sup {
+  font-size: 0.4em;
+  position: relative;
+  top: -0.5em;
 }
 
 .subSpace {
@@ -343,6 +362,10 @@ h4 {
   background-color: white;
 }
 
+.middleColor > .circle {
+  border: 1px solid #24ba9f;
+}
+
 .fourthSpace > p {
   height:25%;
 }
@@ -366,6 +389,6 @@ h4 {
   font-weight: 600;
 }
 
-.price {
+.empty {
   height: 20%;
 }
