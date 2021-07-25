@@ -431,7 +431,7 @@ h4 {
 }
 
 .contact {
-  height: 70%;
+  height: 60%;
   width:100%;
   display: flex;
   margin-top: 3em;
@@ -458,12 +458,31 @@ h4 {
   border: 1px solid;
 }
 
+.contactForm form {
+  display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2em 0;
+    height: 35%;
+}
+
+.name, .email {
+  width: 85%;
+  height: 30%;
+  opacity: .5;
+  text-indent: 0.3em;
+  font-size: 2em;
+  margin-bottom: 1em;
+  border: 1px solid #24ba9f;
+}
+
 .rightSide {
   width: 40%;
   border: 1px solid;
   height: 100%;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .images {
