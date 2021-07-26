@@ -32,7 +32,7 @@ h4 {
   font-weight: bold;
 }
 
-.navigation li{
+.navigation > li{
   list-style-type: none;
   display: inline-block;
   margin: 0 20px;
@@ -42,6 +42,37 @@ h4 {
 .navigation li a {
   text-decoration: none;
   color: white;
+}
+
+.dropdown {
+  display:none;
+  padding-top: 33px;
+  position: absolute;
+  width: 130px;
+  height: 140px;
+}
+
+.firstLi:hover .dropdown {
+  display:block;
+}
+
+.firstLi .dropdown:before {
+  top: 18px;
+  left: calc(25% - 5px);
+  content: "";
+  display: block;
+  position: absolute;
+  border-bottom: 15px solid black;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+
+.dropdownLi {
+  background-color: #000;
+  padding-left: 13px;
+  padding-right: 22px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .slider {
