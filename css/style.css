@@ -548,11 +548,31 @@ h4 {
   height: 60px;
   width: 60px;
   border: 1px solid #24ba9f;
+
+}
+
+input:checked ~ #checkmarkPhoto{
+  display: none;
+  background: color;
+  z-index: 1;
+}
+
+#checkmarkPhoto {
+  display: block;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  background-position: center;
+  height: 100%;
+  cursor: pointer;
 }
 
 .check {
   opacity: 0;
   cursor: pointer;
+  position: absolute;
+  z-index: 2;
 }
 
 .checkStyle {
